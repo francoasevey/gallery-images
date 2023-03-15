@@ -20,8 +20,8 @@ body{
     cursor: pointer;
     margin: auto;
     position: absolute;
-    width: 250px;
-    height: 320px;
+    width: 400px;
+    height: 500px;
     border-radius: 8px;
     overflow: hidden;
     border: 5px solid #ffffff;
@@ -47,14 +47,14 @@ input{
     display: none;
 }
 input:checked ~ .main label:nth-child(1) {
-    transform: translateX(-300px);
+    transform: translateX(-450px);
 }
 
 input:checked ~ .main label:nth-child(2) {
     transform: translateX(0);
 }
 input:checked ~ .main label:nth-child(3) {
-    transform: translateX(300px);
+    transform: translateX(450px);
 }
 input:checked ~ .main label:hover img {
     filter: grayscale(0);
